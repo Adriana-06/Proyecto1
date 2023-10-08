@@ -82,7 +82,7 @@
     ]
   },
   "section_3": {
-    "title": "CATEGORIES",
+    "title": "Categories",
     "images": [
       {
         "id": 1,
@@ -103,7 +103,7 @@
     ]
   },
   "section_4": {
-    "title": "¿WHAT ARE OUR SERVICES?",
+    "title": "¿What are our services?",
     "img": "./Assets/pic four.jpg",
     "services": [
       {
