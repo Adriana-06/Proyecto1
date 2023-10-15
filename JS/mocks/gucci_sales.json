@@ -140,11 +140,11 @@
       },
       {
         "id": 2,
-        "url": "Assets/facebook.svg"
+        "url": "Assets/face.png"
       },
       {
         "id": 3,
-        "url": "Assets/brand-twitter-filled.svg"
+        "url": "Assets/twitter.png"
       }
     ],
     "footer_sections": [
