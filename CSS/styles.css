@@ -15,6 +15,55 @@
                    padding: 0 1rem;
                    transition: background-color 0.3s, color 0.3s;
                }
+
+               header {
+                   background-color: #333;
+                   color: #fff;
+                   padding: 1rem;
+                   position: sticky;
+                   top: 0;
+                   z-index: 1000;
+               }
+               
+               /* Nuevo contenedor flex para organizar el título y botón */
+               .header-top {
+                   display: flex;
+                   justify-content: space-between;
+                   align-items: center;
+                   flex-wrap: wrap;
+               }
+               
+               /* Estilo para el título */
+               .header-top h1 {
+                   margin: 0;
+                   font-size: 1.8rem;
+               }
+               
+               /* Botón de modo oscuro */
+               #modo-oscuro {
+                   padding: 0.4rem 1rem;
+                   background-color: #555;
+                   color: #fff;
+                   border: none;
+                   cursor: pointer;
+                   border-radius: 5px;
+               }
+               
+               #modo-oscuro:hover {
+                   background-color: #777;
+               }
+               
+               /* Menú centrado debajo */
+               nav ul {
+                   list-style: none;
+                   display: flex;
+                   gap: 1rem;
+                   flex-wrap: wrap;
+                   justify-content: center;
+                   margin-top: 1rem;
+                   padding: 0;
+               }
+               
                
                /* Modo oscuro */
                body.modo-oscuro {
@@ -73,55 +122,6 @@
                nav a:hover {
                    text-decoration: underline;
                }
-
-               header {
-                   background-color: #333;
-                   color: #fff;
-                   padding: 1rem;
-                   position: sticky;
-                   top: 0;
-                   z-index: 1000;
-               }
-               
-               /* Nuevo contenedor flex para organizar el título y botón */
-               .header-top {
-                   display: flex;
-                   justify-content: space-between;
-                   align-items: center;
-                   flex-wrap: wrap;
-               }
-               
-               /* Estilo para el título */
-               .header-top h1 {
-                   margin: 0;
-                   font-size: 1.8rem;
-               }
-               
-               /* Botón de modo oscuro */
-               #modo-oscuro {
-                   padding: 0.4rem 1rem;
-                   background-color: #555;
-                   color: #fff;
-                   border: none;
-                   cursor: pointer;
-                   border-radius: 5px;
-               }
-               
-               #modo-oscuro:hover {
-                   background-color: #777;
-               }
-               
-               /* Menú centrado debajo */
-               nav ul {
-                   list-style: none;
-                   display: flex;
-                   gap: 1rem;
-                   flex-wrap: wrap;
-                   justify-content: center;
-                   margin-top: 1rem;
-                   padding: 0;
-               }
-               
                
                /* Secciones */
                section {

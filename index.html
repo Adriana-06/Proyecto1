@@ -1,267 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/main_styles.css">
-  <link rel="stylesheet" href="CSS/header_styles.css">
-  <link rel="stylesheet" href="CSS/footer_styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
-
-  <title>My landing page</title>
-</head>
+<html lang="es">
+  <header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <div class="header-top">
+        <h1>Adriana Morera E</h1>
+        <button id="modo-oscuro" onclick="toggleModoOscuro()">Modo Oscuro</button>
+    </div>
+    <nav>
+        <ul>
+            <li><b><a href="#inicio">Inicio</a></b></li>
+            <li><b><a href="#educacion">Educación</a></b></li>
+            <li><b><a href="#habilidades">Habilidades</a></b></li>
+            <li><b><a href="#proyectos">Portafolio</a></b></li>
+            <li><b><a href="#contacto">Contacto</a></b></li>
+        </ul>
+    </nav>
+</header>
 
 <body>
-
-  <header class="header">
-
-    <div id="emailModal" class="modal">
-      <div class="modal-content">
-        <span class="close" id="closeEmailModal">&times;</span>
-        <h2 id="contact_title"></h2>
-        <form id="emailForm">
-          <label id="for_label" for="to"></label>
-          <input type="email" id="to" name="to" required><br>
-
-          <label id="issue_label" for="subject"></label>
-          <input type="text" id="subject" name="subject" required><br>
-
-          <label id="message_label" for="message"></label>
-          <textarea id="message" name="message" required></textarea><br>
-          <div class="btn_container">
-
-            <button id="btn_send" type="submit"></button>
-          </div>
-
-        </form>
-      </div>
-    </div>
-
-
-    <nav class="navigation-menu">
-
-      <div class="header-title">
-        <h1 id="company_name" style="font-size: 45px;"></h1>
-      </div>
-
-      <div class="nav-options">
-
-        <ul class="first-menu-options">
-          <li><a id="menu_option_1" href="#start"></a></li>
-          <li><a id="menu_option_2" href="#products"></a></li>
-          <li><a id="menu_option_3" href="#services"></a></li>
-          <li><a id="menu_option_4" href="#"></a></li>
-          </li>
-        </ul>
-
-        <ul class="second-menu-options">
-          <li><img id="icon_header_1" src="" alt=""></li>
-          <li><img id="icon_header_2" src="" alt=""></li>
-          <li><img id="icon_header_3" src="" alt=""></li>
-
-        </ul>
-
-      </div>
-
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <section class="content_one" id="start">
-
-      <div class="content_one_information">
-
-        <h2 id="title_secction_1"></h2>
-        <p style="line-height: 1.5;" id="paragraph_section_1"></p>
-
-      </div>
-
-      <div class="content_one_picture">
-
-        <img id="img_section_1" class="picture_one" src="" alt="">
-      </div>
-
-
-
+    
+    <section id="inicio">
+        <h2>Conoceme!!!</h2>
+<p>Hola, soy Adriana Morera, estudiante de ingeniería en sistamas, que les puede decire de mí?</p>
+<p>Soy muy proactiva, me gusta siempre ayudar a los demás, me gusta estar reatndome a mí misma, me encantan los deportes y cocinar, fuí parte de clubes 4-S y garcias a eso soy una persona lider, me encanta trabajar en equipo y tambien puedo trabajar sola...</p>
+<p>En fin, eso es un poco de mí, ojala pronto me puedan conocer más!!!</p>
     </section>
-
-    <section class="content-two" id="products">
-      <div class="content_two_information">
-
-        <h2 id="title_section_2"></h2>
-
-        <div id="content-product">
-
-
-          <div class="discount_field">
-
-            <div>
-              <p><b style="font-size:20px ;">Take off</b></p>
-            </div>
-
-            <div id="content-discount">
-              <p style="font-size: 25px;"></p>
-            </div>
-
-          </div>
-          <img id="picture-content_two" src="" alt="">
-
-          <div id="content-information-picture-one">
-            <div id="text-1">
-              <p><b id="description_product"></b><br></p>
-              <p id="price_product"></p>
-              <p><b id="size_product"></b></p>
-            </div>
-            <div id="content-more" style="font-size: 25px;"><b>+</b></div>
-          </div>
-
-        </div>
-
-        <div class="clothes-buttons" id="buttons">
-          <button id="button_1" type="button"></button>
-          <button id="button_2" type="button"></button>
-          <button id="button_3" type="button"></button>
-          <button id="button_4" type="button"></button>
-        </div>
-
-      </div>
-
-      <!-- Agrega aquí tu contenido principal -->
+    
+    <section id="educacion">
+        <h2>Educación y Experiencia</h2>
+        <H3>UNA Sede Nicoya</H3>
+        <p>Diplomado en ingeniería en sistamas. Jun 2024</p>
+        <H3>CTP de Hojancha</H3>
+        <p>Bachillerato en educaión. Dic 2021</p>
+        <H3>CTP de Hojancha</H3>
+        <p>Técnico medio en Informatica Empresarial. Dic 2021</p>
     </section>
-
-    <section class="content-three">
-
-
-      <h2 id="title_content_three"></h2>
-
-      <div class="container">
-
-        <img id="content_three_img_1" src="" text="ELEGANT">
-        <img id="content_three_img_2" src="" text="SUMMER">
-        <img id="content_three_img_3" src="" text="DENIM">
-        <img id="content_three_img_4" src="" text="SPORT">
-
-      </div>
-
+    <div class="habilidades-container">
+    <section id="habilidades">
+        <h2>Habilidades Blandas</h2>
+        <li>Organización</li>
+        <li>Liderazgo</li>
+        <li>Compañerismo</li>
+        <li>Compromiso</li>
+        <li>Empatia</li>
+        <li>Responsabilidad</li>
     </section>
-
-
-    <section class="content-four" id="services">
-
-
-      <div class="services_content">
-
-        <h1 id="title_content_four">¿What are our services?</h1>
-
-        <div class="service_1">
-
-          <div class="img_service">
-            <img id="ico1" img src="" alt="">
-          </div>
-
-          <div id="service_content_1">
-            <h3></h3>
-            <p></p>
-          </div>
-
-        </div>
-
-        <div class="service_2">
-
-          <div class="img_service">
-            <img id="ico2" src="" alt="">
-          </div>
-
-          <div id="service_content_2">
-            <h3></h3>
-            <p></p>
-          </div>
-
-        </div>
-
-        <div class="service_3">
-
-          <div class="img_service">
-            <img id="ico3" src="" alt="">
-          </div>
-
-          <div id="service_content_3">
-            <h3></h3>
-            <p></p>
-          </div>
-
-        </div>
-
-        <div class="service_4">
-
-          <div class="img_service">
-            <img id="ico4" src="" alt="">
-          </div>
-
-          <div id="service_content_4">
-
-            <h3></h3>
-            <p></p>
-
-          </div>
-
-        </div>
-
-      </div>
-      <div class="content_four_picture">
-        <img id="picture_content_four" img src="" alt="">
-      </div>
-
+    <section id="habilidades">  
+                   <h2>Habilidades Técnicas</h2>
+                   <li>React</li>
+                   <li>C++</li>
+                   <li>Nest</li>
+                   <li>Next</li>
+                   <li>Figma</li>
     </section>
+</div>
 
-  </main>
+<section id="Experiencia">
+<h2>Experiencia Laboral</h2>
+<H3>Liga Comunal del Agua</H3>
+<p>Durante dos años fui la persona encarga de supervisar y asegurar el funionamiento de los sistemas de la organización</p>
+<p>Enero 2021-Junio 2024</p>
+</section>
 
-  <footer class="footer">
+<section id="Idiomas">
+<h2>Idiomas</h2>
+<H3>Español</H3>
+<p>Nativo</p>
+<H3>Ingles</H3>
+<p>B2</p>
+</section>
 
-    <div id="footer_section_1" class="footer-info">
-      <h3></h3>
-      <ul id="list_1">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"> </a></li>
-      </ul>
+<section id="proyectos">
+<h2>Portafolio</h2>
+<div class="proyectos-grid">
+    <div class="proyecto-card">
+        <img src="P1.png" alt="Proyecto 1">
+        <h3>ACV Web</h3>
+        <p>ACV Web es una pagina creada para el alquiler de casa vacacionaes en Cost rica, este sitio tiene la particularidad que es solo para casa, por ello nuestro publico meta son familias</p>
+        <a href="#" onclick="mostrarDetalles('acv')" class="btn-detalles">Más detalles</a>
+
     </div>
+    <div class="proyecto-card">
+        <img src="p2.png" alt="Proyecto 2">
+        <h3>HOMELY</h3>
+        <p>HOMELY fue un ecommerce diseñado para vender todo tipo de productos del hogar a un muy buen precio, con la idea de evitarle la necesidad al cliente de salir de su hogar y con una entrega en menos de 3 dias.</p>
+        <a href="#" onclick="mostrarDetalles('homely')" class="btn-detalles">Más detalles</a>
 
-    <div id="footer_section_2" class="footer-info">
-      <h3></h3>
-      <ul id="list_2">
-        <li><a id="" href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
     </div>
+    <div class="proyecto-card">
+        <img src="p3.png" alt="Proyecto 3">
+        <h3>Nayuribe</h3>
+        <p>Nayuribe fue un poryecto de reserva de salas realizado para una biblioteca con el fin de prganizar mejor el ingreso y use de las personas a las mismas. Además de poder extraer estadisticas más puntuales.</p>
+        <a href="#" onclick="mostrarDetalles('nayuribe')" class="btn-detalles">Más detalles</a>
 
-    <div id="footer_section_3" class="footer-info">
-      <h3></h3>
-      <ul id="list_3">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
     </div>
+</div>
+</section>
+               
+    
+<section id="contacto">
+<h2>Contacto</h2>
+<form id="formulario-contacto">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+               
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" name="correo" required><br><br>
+               
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
 
-    <div id="list_4" class="logos">
-      <img id="footer_ico_1" class="instagram-logo" src="" alt="Gucci Logo">
-      <img id="footer_ico_2" class="facebook-logo" src="" alt="Gucci Logo">
-      <img id="footer_ico_3" class="twiter-logo" src="" alt="Gucci Logo">
-    </div>
-
-  </footer>
-  <script src="JS/main.js"></script>
-  <script src="JS/main_2.js"></script>
+    <button type="submit">Enviar</button>
+</form>
+</section>
+               
+    
+    <script src="JS/script.js"></script>
 </body>
+
+<div id="modal-detalles" class="modal oculto">
+  <div class="contenido-modal">
+    <span class="cerrar" onclick="cerrarModal()">&times;</span>
+    <div id="contenido-detalles"></div>
+  </div>
+</div>
 
 </html>
